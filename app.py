@@ -1,3 +1,9 @@
+#!/usr/env/bin Python 3
+#-*- coding: utf-8 -*-
+"""
+This file contains logic of imported flask libraries.
+And is the main backbone file of the functional unit.
+"""
 # app.py
 import os
 import re
@@ -160,3 +166,4 @@ if __name__ == "__main__":
         port=int(os.environ.get("PORT", 5000)),
         debug=True
     )
+
